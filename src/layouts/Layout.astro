@@ -1,0 +1,6 @@
+---
+import { TestStoreLoader } from "../stores/saveStore";
+---
+
+<TestStoreLoader value={Astro.locals.saved_ids} client:only="solid-js" />
+<slot />
