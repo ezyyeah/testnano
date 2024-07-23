@@ -1,6 +1,5 @@
-import { When, whenAmI } from "@it-astro:when";
 import type { WritableAtom } from "nanostores";
-import { type Component, onMount } from "solid-js";
+import { type Component } from "solid-js";
 
 export function storeLoader<T = any>(
   store: WritableAtom<T>

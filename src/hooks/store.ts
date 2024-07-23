@@ -1,7 +1,7 @@
 import { When, whenAmI } from "@it-astro:when";
 import { useStore } from "@nanostores/solid";
 import type { WritableAtom } from "nanostores";
-import type { Accessor, Component } from "solid-js";
+import type { Accessor } from "solid-js";
 
 let Astro: any;
 
